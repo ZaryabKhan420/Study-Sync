@@ -1,0 +1,123 @@
+@media (max-width: 1240px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 768px) {
+  .menu-btn {
+    display: block;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .header-btn > .primary-btn {
+    display: none;
+  }
+
+  .hero-section {
+    margin-top: 5rem;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+  }
+
+  .hero-left {
+    align-items: center;
+    text-align: center;
+    padding: 0;
+  }
+
+  .hero-right {
+    margin-top: 2rem;
+    justify-content: center;
+  }
+
+  .companies {
+    margin-top: 5rem;
+  }
+
+  .company-detail {
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    row-gap: 6rem;
+  }
+  .testi-boxes {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .newsletter-div {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .newsletter-left {
+    width: 80%;
+  }
+
+  .newsletter-right {
+    width: 80%;
+  }
+
+  .top-footer {
+    padding-top: 0;
+    flex-direction: column;
+    gap: 5rem;
+  }
+
+  .top-footer-left {
+    width: 100%;
+  }
+
+  .logo-social {
+    align-items: center;
+  }
+
+  .top-footer-right {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .hero-right > .image {
+    width: 100%;
+  }
+
+  .feature-boxes {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+
+  .feature-section > .para {
+    width: 80%;
+  }
+
+  .testi-boxes {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+
+  .newsletter-left {
+    width: 100%;
+  }
+
+  .newsletter-right {
+    width: 100%;
+  }
+
+  .top-footer-right {
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .quick-links {
+    align-items: center;
+  }
+}
